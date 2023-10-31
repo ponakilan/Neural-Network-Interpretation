@@ -1,4 +1,4 @@
-from visualizer.ClassActivationMap import ClassActivationMap
+from visualizer.cam import ClassActivationMap
 from keras.datasets import fashion_mnist
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, GlobalAveragePooling2D, Dense
